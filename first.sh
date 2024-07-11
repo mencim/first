@@ -1,6 +1,6 @@
 #!/bin/sh
 
-sed -i '/^PermitRootLogin/{s/^/#/;a\
+sed -i '/PermitRootLogin/{s/^/#/;a\
 PermitRootLogin yes
 }' /etc/ssh/sshd_config
 
